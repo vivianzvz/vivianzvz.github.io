@@ -1,7 +1,10 @@
 ---
-layout: home
-title: "Vivian Juehui Zheng"
+permalink: /
+title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 Welcome! I'm **Vivian Juehui Zheng**, a Ph.D. Candidate in Economics at UC Santa Cruz.
