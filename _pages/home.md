@@ -7,12 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I'm **Vivian Juehui Zheng**, a Ph.D. Candidate in Economics at UC Santa Cruz.
+Welcome to my website! I am Vivian, an experimental and behavioral economist from UC Santa Cruz focused on exploring how human behavior, biases, and decision-making impact the functioning of financial markets and institutions.
 
-I use lab experiments and behavioral models to study how people make decisions in markets.  
-My research explores:
-- Public vs. private information in asset pricing
-- Market formats and information aggregation
-- Visual interfaces in trading environments
+With a research focus on unraveling these complexities, I bring insights from both empirical analysis and theoretical frameworks. As an experienced educator, I have served as a teaching assistant across various economics courses and as an instructor specializing in managerial economics and game theory.
 
-📄 [CV](cv/) · [Research](/publications/) · [Teaching](/teaching/)
+I am currently on the job market.
+
+- [**RESEARCH**](/publications/)
+- [**CV**](files/VivianZheng_CV.pdf)
+- [**PROFESSIONAL SERVICE**](/service/)
+- [**TEACHING**](/teaching/)
