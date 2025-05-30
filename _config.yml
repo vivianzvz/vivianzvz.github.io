@@ -1,10 +1,4 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
 
 # Basic Site Settings
 locale         : "en-US"
@@ -13,81 +7,38 @@ title_separator: "-"
 name           : "Vivian Juehui Zheng"
 description    : "Ph.D. Candidate in Economics at UC Santa Cruz, specializing in behavioral and experimental economics."
 url            : "https://vivianzvz.github.io"
-baseurl        : ""  # Only needed if your site is served from a subpath (not needed here)
+baseurl        : ""
 repository     : "vivianzvz/vivianzvz.github.io"
 
-
-
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
-  # Biographic information
-  avatar           : "VivianZheng2.JPG"  # Make sure you have this image in your /images or /assets folder
-  name             : "Vivian Juehui Zheng"
-  pronouns         : "she/her"
-  bio              : "Ph.D. Candidate in Economics at UC Santa Cruz. I use experiments and behavioral models to study how people make decisions in markets."
-  location         : "Santa Cruz, California"
-  employer         : "University of California, Santa Cruz"
-  uri              : "https://vivianjzheng.com"
-  email            : "vjzheng@ucsc.edu"
-
-  # Academic websites
-  # arxiv            : 
-  # googlescholar    : 
-  # impactstory      : 
-  # orcid            : 
-  # semantic         : 
-  # pubmed           : 
-  # researchgate     : 
-
+  avatar    : "VivianZheng2.JPG"
+  name      : "Vivian Juehui Zheng"
+  pronouns  : "she/her"
+  bio       : "Ph.D. Candidate in Economics at UC Santa Cruz. I use experiments and behavioral models to study how people make decisions in markets."
+  location  : "Santa Cruz, California"
+  employer  : "University of California, Santa Cruz"
+  uri       : "https://vivianjzheng.com"
+  email     : "vjzheng@ucsc.edu"
 
   # Repositories and software development
-  # bitbucket        : # Username - Update with your username on the site
-  # codepen          : # Username
-  # dribbble         : # Username
-   github           : "vivianzvz"
-  # kaggle           : # Username  
-  # stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  github    : "vivianzvz"
 
-  # # Social media
-  # bluesky          : "bsky.app" # Replace this with you Bluesky username
-  # facebook         : # Username
-  # flickr           : # Username
-  # foursquare       : # Username
-  # goodreads        : # Username
-  # google_plus      : # Username
-  # keybase          : # Username
-   instagram        : "vivianzvz"
-  # lastfm           : # Username
-   linkedin         : "vivianjzheng"   
-  # mastodon         : # URL
-  # medium           : # URL
-  # pinterest        : # Username
-  # soundcloud       : # Username
-  # steam            : # Username
-  # telegram         : # URL
-  # tumblr           : # Username
-  # twitter          : # Username for X / Twitter
-  # vine             : # Username
-  # weibo            : # Username
-  # wikipedia        : # Username
-  # xing             : # Username
-  # youtube          : # Username
-  # zhihu            : # URL
-
+  # Social media
+  instagram : "vivianzvz"
+  linkedin  : "vivianjzheng"
 
 # Site Settings
-teaser:                     # Optional: add a default image like "images/teaser.png" if you use featured images
-breadcrumbs: false          # You can leave as-is (turns on/off navigation breadcrumbs)
-words_per_minute: 160       # Leave as-is for reading time estimates
-future: true                # Enables future-dated posts/pages
-read_more: "disabled"       # Fine as-is; leave it unless you want blog-style pages
-talkmap_link: false         # Leave false unless you're using interactive maps for your talks
+teaser:                     
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
 
-# Comments (you don’t need them unless you want people to comment on your pages)
+# Comments
 comments:
-  provider: false           # Turn off all comment providers
+  provider: false
   disqus:
     shortname: 
   discourse:
@@ -99,28 +50,23 @@ comments:
 
 # Atom/RSS feed
 atom_feed:
-  hide: false               # Keep this if you want others to subscribe to your updates
-  path:                     # Leave blank to use default feed.xml
+  hide: false
+  path: 
 
-
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
-
+# SEO
+google_site_verification:
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
 
 # Social Sharing
 twitter:
-  username: "vivianjzheng"  # Or remove this line if you don't use Twitter/X
-
+  username: "vivianjzheng"
 facebook:
   username:
   app_id:
   publisher:
-
-og_image: "/images/profile.png"  # Optional – shown in social link previews
-
+og_image: "/images/profile.png"
 social:
   type: Person
   name: Vivian Juehui Zheng
@@ -129,14 +75,11 @@ social:
     - "https://github.com/vivianzvz"
     - "https://www.instagram.com/vivianjzheng/"
 
-
-
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider: "false"
   google:
-    tracking_id          :
-
+    tracking_id: 
 
 # Reading Files
 include:
@@ -173,14 +116,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -192,7 +133,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
 
 # Collections
 collections:
@@ -209,10 +149,8 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -223,14 +161,12 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
   - scope:
       path: ""
       type: teaching
@@ -239,7 +175,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
   - scope:
       path: ""
       type: publications
@@ -248,7 +183,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
   - scope:
       path: ""
       type: portfolio
@@ -257,7 +191,6 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
   - scope:
       path: ""
       type: talks
@@ -266,19 +199,14 @@ defaults:
       author_profile: true
       share: true
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  style: compressed
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: America/Los_Angeles
 
 # Plugins
 plugins:
@@ -287,7 +215,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -295,38 +222,15 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
 
 # HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
