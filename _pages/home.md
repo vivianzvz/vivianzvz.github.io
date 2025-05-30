@@ -1,5 +1,6 @@
 ---
-layout: home
+layout: archive
+title: "home"
 permalink: /home/
 title: "Vivian Juehui Zheng"
 author_profile: true
