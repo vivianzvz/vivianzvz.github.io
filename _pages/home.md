@@ -1,6 +1,6 @@
 ---
 layout: home
-permalink: /
+permalink: / 
 title: "Vivian Juehui Zheng"
 author_profile: true
 ---
