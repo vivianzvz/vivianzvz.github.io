@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Experimental and Behavioral Economist | UC Santa Cruz Ph.D. Candidate"
 author_profile: true
 redirect_from: 
   - /about/
